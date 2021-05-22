@@ -9,6 +9,7 @@ body {
     color:rgb(44, 43, 43);
 }
 
+/* grid index*/
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -46,7 +47,7 @@ body {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color: rgb(202, 202, 202);
+    background-color: #F2F2F2;
 }
 
 .grid-section-5 {
@@ -54,7 +55,7 @@ body {
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color: rgb(202, 202, 202);
+    background-color: #F2F2F2;
 }
 
 .grid-section-6 {
@@ -73,6 +74,42 @@ body {
     background-color: #205A92;
 }
 
+/* grid paginas*/
+.grid-pagina-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100vh;
+}
+
+.grid-pagina-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #F2F2F2;
+}
+
+.grid-pagina-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #205A92;
+
+}
+
+.grid-pagina-4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #205A92;
+}
+
+
+/*Codigo sin grid*/
 .servicios-section-1{
     display: flex;
     justify-content: center;
@@ -149,7 +186,14 @@ h3 {
     text-align: center;
     padding: 10px;
 }
+.footer {
+    color: #fff;
+}
 
+.footer-a {
+    color: #fff;
+    border-bottom: 0.1rem solid #5A5C8C;
+}
 label {
     margin: 0.35rem;
 }
@@ -188,3 +232,29 @@ a {
 a:hover {
 	color: black;
 }
+
+/*Servicios*/
+.row,
+.row > .column {
+  padding: 8px; }
+
+.column {
+  float: left;
+  width: 25%; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.content {
+  background-color: #e0e0e0;
+  padding: 10px; }
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%; } }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%; } }
