@@ -253,10 +253,3 @@ a:hover {
   background-color: #e0e0e0;
   padding: 10px; }
 
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%; } }
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%; } }
