@@ -110,7 +110,8 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    padding: 3rem;
 
 }
 .footer-section {
@@ -148,13 +149,38 @@ h3 {
     text-align: center;
     padding: 10px;
 }
+
+label {
+    margin: 0.35rem;
+}
+
+input, textarea{
+    border: 0.1rem solid #302F40;
+    border-radius: 0.25rem; 
+    padding: 0.25rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+button {
+    background-color: #205A92;
+    border: 0.1rem solid #205A92;
+    border-radius: 0.25rem; 
+    color: #fff;
+    padding: 0.25rem;
+}
+button:hover {
+    background-color: #5A5C8C;
+    border: 0.1rem solid #5A5C8C;
+    color: #fff;
+}
+
 ul{
     list-style-type: none;
 }
 
 a {
 	text-decoration: none;
-	color: #9999ff;
+	color: #5A5C8C;
 	padding: 5px;
 	margin: 5px;
 }
